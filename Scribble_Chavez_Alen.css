@@ -1,0 +1,58 @@
+/**
+ * CSS for the Scribble Web App
+ * Copyright Dan Mazzola and ABOR
+ */
+
+ body {
+    font-family:        sans-serif;
+    background-color:   peachpuff;    
+}
+
+#drawingCanvasId {
+    border:             2px solid #c3c3c3;
+    margin-right:       auto;
+    margin-left:        auto;
+    display:            block;
+    background-color:   white;
+}
+
+#titleId {
+    text-align:         center;
+}
+
+#informationDivId {
+    color:              #111111;
+    font-weight:        bold;
+    width:              500px;
+    margin-right:       auto;
+    margin-left:        auto;
+    text-align:         center;
+}
+
+p {
+    margin:             0px;
+}
+
+.controlDiv {
+    width:              500px;
+    margin-right:       auto;
+    margin-left:        auto;
+    padding-bottom:     10px;      
+}
+
+.controlDiv button, select {
+    width:              95px;
+    height:             35px;
+    font-size:          20px;
+    vertical-align:     middle;    
+}
+
+#black      { background-color: #000000; }
+#purple     { background-color: #1D1160; } /* Phoenix Suns Purple */
+#orange     { background-color: #E56020; } /* Phoenix Suns Orange */
+#gradient   { background-color: #C3C3C3; }
+
+/* --- Header styles --- */
+.app-header{max-width:820px;margin:16px auto 8px;text-align:center;}
+.app-header h1{margin:0;font-size:28px;font-weight:700;}
+.app-header p{margin:6px 0 0;color:#555;font-size:14px;}
